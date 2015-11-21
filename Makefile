@@ -10,4 +10,4 @@ all:
 endif
 
 clean:
-	-@rm *.o *.ko *.mod.c *.symvers *.order 2>/dev/null || true
+	-@rm *.o *.ko *.mod.c *.symvers *.order *.cmd 2>/dev/null || true
